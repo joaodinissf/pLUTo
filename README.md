@@ -34,49 +34,51 @@
 **pLUTo is a Processing-using-Memory architecture that enables the execution of complex operations in-memory.**
 To achieve this, the key idea of pLUTo is to replace complex operations with low-cost, massively parallel table lookups that produce the same result.
 
-The _pLUTo LUT Query_ is at the core of pLUTo's functionality: this operation enables every element in an input memory row to be used to query a LUT with up to as many entries as the number of rows in a DRAM subarray.
+The _pLUTo LUT Query_ operation is at the core of pLUTo's functionality: this operation enables every element in an input memory row to be used to query a LUT which main contain up to as many entries as the number of rows in a DRAM subarray.
 
 ## Repository Structure
 
 This repository contains the artifact evaluation materials associated with [pLUTo: Enabling Massively Parallel Computation In DRAM via Lookup Tables](pLUTo.pdf), published at MICRO 2022.
 
-We provide sources to reproduce:
+We provide source code and helper files to reproduce:
 
-1. SPICE simulations (these results are shown in Figure 6 in the paper).
-2. The simulation of pLUTo's operation (these results are shown in Figures 7-13 in the paper).
+1. SPICE simulations (shown in Figure 6 in the paper)
+2. The simulation of pLUTo's operation (shown in Figures 7-13 in the paper)
 
-The instructions to reproduce each of the artifacts are provided in dedicated `README.md` files in their respective directories.
+We provide in-depth instructions on how to reproduce each of the artifacts in the `README.md` files in the `pluto_sim` and `spice` directories.
 
-The following is a high-level overview of the structure of this repository, where select folders and files have been highlighted.
+The following is a high-level overview of the structure of this repository. We highlight select folders and files of note.
 
 ```
 .
 +-- LICENSE
 +-- README.md
 +-- pluto_sim/
-|   +-- baselines                   --> results from execution of baselines
-|   +-- pysim                       --> output folder
-|   +-- pysim_reference             --> reference results from pLUTo's execution
+|   +-- baselines                   --> baseline results for the evaluated workloads
+|   +-- pysim                       --> output folder (empty when the repository is first cloned)
+|   +-- pysim_reference             --> reference results for the pLUTo-based execution of the evaluated workloads
 |   +-- LUT_Loading_Times.xlsx      --> used to produce the results shown in Figure 11 in the paper
-|   +-- README.md                   --> EXECUTION INSTRUCTIONS
-|   +-- requirements.txt            --> Python requirements to be installed
+|   +-- README.md                   --> START HERE: step-by-step instructions on how to reproduce our results
+|   +-- requirements.txt            --> Python requirements to be installed prior to execution
 |   +-- sim_walkthrough.ipynb       --> interactive Python Jupyter Notebook with step-by-step instructions on how to reproduce our results
 |   +-- ...
 +-- resources/
 |   +-- ...                         --> media rendered in this README
 +-- spice/
-|   +-- media/
+|   +-- media/                      --> media rendered in the README
 |   +-- out/                        --> output folder
-|   +-- runs/
-|   +-- README.md                   --> EXECUTION INSTRUCTIONS
-|   +-- pluto-a.asc
-|   +-- pluto-b.asc
-|   +-- pluto-c.asc
-|   +-- reference.asc
-|   +-- transistor_model.pm
+|   +-- runs/                       --> output folder
+|   +-- README.md                   --> START HERE: step-by-step instructions on how to reproduce our results
+|   +-- pluto-a.asc                 --> cell design file
+|   +-- pluto-b.asc                 --> cell design file
+|   +-- pluto-c.asc                 --> cell design file
+|   +-- reference.asc               --> cell design file
+|   +-- transistor_model.pm         --> transistor model
 ```
 
 ## Execution Instructions
+
+For step-by-step instructions on how to reproduce our results, please see [the README in the `spice` folder](spice/README.md) and [the README in the `pluto_sim` folder](pluto_sim/README.md).
 
 ## Citation
 

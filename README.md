@@ -100,7 +100,7 @@ You can also use the following BibTeX entry for this purpose:
 
 ## License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Contact
 

@@ -1,4 +1,4 @@
-# pLUTo - In-House Simulator
+# pLUTo - In-House Performance and Energy Simulator
 
 ## Steps to Reproduce
 

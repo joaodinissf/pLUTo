@@ -31,9 +31,9 @@
 
 ## What is pLUTo?
 
-**pLUTo is a Processing-using-Memory architecture that enables the massively parallel execution of table lookup operations inside DRAM.**
+**pLUTo is a Processing-using-Memory architecture that enables the execution of complex operations in-memory.**
 
-The key idea of pLUTo is to replace complex operations with low-cost, bulk memory reads (i.e., LUT queries) instead of relying on complex extra logic.
+To achieve this, the key idea of pLUTo is to replace complex operations with low-cost, massively parallel bulk table lookups to replace computationally expensive operations.
 
 ## Repository Structure
 

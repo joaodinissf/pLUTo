@@ -1,10 +1,7 @@
 <p align="center">
-  <picture>
-  	<source media="(prefers-color-scheme: dark)" srcset="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg">
   <img alt="hermes-logo" src="logo/Dark.png" width="400">
-</picture>
-  <h2 align="center">pLUTo</h3>
-  <h3 align="center">Enabling Massively Parallel Computationin DRAM via Lookup Tables</h3>
+  <img alt="hermes-logo" src="logo/Dark.png" width="400">
+  <h3 align="center">Enabling Massively Parallel Computation in DRAM via Lookup Tables</h3>
 </p>
 
 <p align="center">

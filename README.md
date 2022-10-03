@@ -115,7 +115,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-João Dinis Ferreira - [hello@joaof.eu]
+João Dinis Ferreira - hello@joaof.eu
 
 ## Acknowledgements
 

@@ -1,6 +1,6 @@
 <p align="center">
-  <img alt="hermes-logo" src="logo/Dark.png" width="400">
-  <img alt="hermes-logo" src="logo/Dark.png" width="400">
+  <img alt="pluto-logo" src="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg" width="400">
+  <img alt="pluto-name" src="resources/pluto.svg" width="400">
   <h3 align="center">Enabling Massively Parallel Computation in DRAM via Lookup Tables</h3>
 </p>
 

@@ -1,4 +1,21 @@
-# pLUTo - MICRO 2022 - AE
+<p align="center">
+  <picture>
+  	<source media="(prefers-color-scheme: dark)" srcset="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg">
+  <img alt="hermes-logo" src="logo/Dark.png" width="400">
+</picture>
+  <h2 align="center">pLUTo</h3>
+  <h3 align="center">Enabling Massively Parallel Computationin DRAM via Lookup Tables</h3>
+</p>
+
+<p align="center">
+    <a href="https://github.com/CMU-SAFARI/Hermes/blob/master/LICENSE">
+        <img alt="GitHub" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+    </a>
+    <a href="https://github.com/CMU-SAFARI/Hermes/releases">
+        <img alt="GitHub release" src="https://img.shields.io/github/release/CMU-SAFARI/Hermes">
+    </a>
+    <a href="https://doi.org/10.5281/zenodo.6909799"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6909799.svg" alt="DOI"></a>
+</p>
 
 This repository contains the artifact evaluation materials associated with the MICRO 2022 submission of [pLUTo: Enabling Massively Parallel Computation
 In DRAM via Lookup Tables](pLUTo.pdf).

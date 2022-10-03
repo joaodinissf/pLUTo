@@ -4,7 +4,7 @@
 
 You may reproduce our results in one of two ways:
 
-### Option #1: Step-by-Step Instructions Using the Jupyter Notebook
+### Option #1 (Recommended): Step-by-Step Instructions Using the Jupyter Notebook
 
 1. Ensure you have Python 3.x available on your system.
 2. Install the required dependencies (NumPy and pandas) using `pip install -r requirements.txt`.

@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="pluto-logo" src="resources/pluto-logo.jpg" width="300">
+  <img alt="pluto-logo" src="resources/pluto_logo.jpg" width="300">
   <h3 align="center">Enabling Massively Parallel Computation in DRAM via Lookup Tables</h3>
 </p>
 

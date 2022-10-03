@@ -4,13 +4,13 @@
 
 You may reproduce our results in one of two ways:
 
-### Step-by-Step Instructions Using the Jupyter Notebook
+### Option #1: Step-by-Step Instructions Using the Jupyter Notebook
 
 1. Ensure you have Python 3.x available on your system.
 2. Install the required dependencies (NumPy and pandas) using `pip install -r requirements.txt`.
 3. Launch the simulation walkthrough file by opening `sim_walkthrough.ipynb` as a Jupyter notebook.
 
-### Manually Execution of the In-House Simulator
+### Option #2: Manually Execution of the In-House Simulator
 
 1. Ensure you have Python 3.x available on your system.
 2. Install the required dependencies (NumPy and pandas) using `pip install -r requirements.txt`.

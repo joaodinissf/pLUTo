@@ -1,6 +1,6 @@
 <p align="center">
-  <img alt="pluto-name" src="resources/pluto.svg" width="200" style="display:block"> 
-  <img alt="pluto-logo" src="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg" width="300" style="display:block">
+  <img alt="pluto-name" src="resources/pluto.svg" width="200" style="display:block"> <br/>
+  <img alt="pluto-logo" src="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg" width="300" style="display:block"><br/>
   <h3 align="center">Enabling Massively Parallel Computation in DRAM via Lookup Tables</h3>
 </p>
 

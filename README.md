@@ -16,16 +16,6 @@
     <a href="https://doi.org/10.5281/zenodo.6942058"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6942058.svg" alt="Zenodo DOI"></a>
 </p>
 
-This repository contains the artifact evaluation materials associated with the MICRO 2022 submission of [pLUTo: Enabling Massively Parallel Computation
-In DRAM via Lookup Tables](pLUTo.pdf).
-
-Two artifacts are provided:
-
-1. The SPICE simulations (used to produce Figure 6 in the paper).
-2. The pLUTo simulation model (used to produce Figures 7-13 in the paper).
-
-The instructions to reproduce each of the artifacts are provided in `README.md` files in their respective directories.
-
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -41,7 +31,21 @@ The instructions to reproduce each of the artifacts are provided in `README.md` 
 
 ## What is pLUTo?
 
+**pLUTo is a Processing-using-Memory architecture that enables the massively parallel execution of table lookup operations inside DRAM.**
+
+The key idea of pLUTo is to replace complex operations with low-cost, bulk memory reads (i.e., LUT queries) instead of relying on complex extra logic.
+
 ## Repository Structure
+
+This repository contains the artifact evaluation materials associated with the MICRO 2022 submission of [pLUTo: Enabling Massively Parallel Computation
+In DRAM via Lookup Tables](pLUTo.pdf).
+
+Two artifacts are provided:
+
+1. The SPICE simulations (used to produce Figure 6 in the paper).
+2. The pLUTo simulation model (used to produce Figures 7-13 in the paper).
+
+The instructions to reproduce each of the artifacts are provided in `README.md` files in their respective directories.
 
 We point out next the repository structure and some important folders and files.
 All benchmark folders have similar structure to the one shown for BFS.

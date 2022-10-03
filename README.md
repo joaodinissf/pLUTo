@@ -14,7 +14,8 @@ The instructions to reproduce each of the artifacts are provided in `README.md` 
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#what-is-pluto">What is pLUTo?</a></li>
-    <li><a href="#installation">Instructions</a></li>
+    <li><a href="#repository-structure">Repository Structure</a></li>
+    <li><a href="#execution-instructions">Execution Instructions</a></li>
     <li><a href="#citation">Citation</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -24,13 +25,77 @@ The instructions to reproduce each of the artifacts are provided in `README.md` 
 
 ## What is pLUTo?
 
-## Instructions
+## Repository Structure
+
+We point out next the repository structure and some important folders and files.
+All benchmark folders have similar structure to the one shown for BFS.
+The microbenchmark folder contains eight different microbenchmarks, each with similar folder structure.
+The repository also includes `run_*.py` scripts to run strong and weak scaling experiments for PrIM benchmarks.
+
+```
+.
++-- LICENSE
++-- README.md
++-- run_strong_full.py
++-- run_strong_rank.py
++-- run_weak.py
++-- BFS/
+|   +-- baselines/
+|	|	+-- cpu/
+|	|	+-- gpu/
+|   +-- data/
+|   +-- dpu/
+|   +-- host/
+|   +-- support/
+|   +-- Makefile
++-- BS/
+|   +-- ...
++-- GEMV/
+|   +-- ...
++-- HST-L/
+|   +-- ...
++-- HST-S/
+|   +-- ...
++-- MLP/
+|   +-- ...
++-- Microbenchmarks/
+|   +-- Arithmetic-Throughput/
+|   +-- CPU-DPU/
+|   +-- MRAM-Latency/
+|   +-- Operational-Intensity/
+|   +-- Random-GUPS/
+|   +-- STREAM/
+|   +-- STRIDED/
+|   +-- WRAM/
++-- NW/
+|   +-- ...
++-- RED/
+|   +-- ...
++-- SCAN-SSA/
+|   +-- ...
++-- SCAN-RSS/
+|   +-- ...
++-- SEL/
+|   +-- ...
++-- SpMV/
+|   +-- ...
++-- TRNS/
+|   +-- ...
++-- TS/
+|   +-- ...
++-- UNI/
+|   +-- ...
++-- VA/
+|   +-- ...
+```
+
+## Execution Instructions
 
 ## Citation
 
 Please cite pLUTo as follows:
 
-*João Dinis Ferreira, Gabriel Falcao, Juan Gómez-Luna, Mohammed Alser, Lois Orosa, Mohammad Sadrosadati, Jeremie S. Kim, Geraldo F. Oliveira, Taha Shahroodi, Anant Nori, and Onur Mutlu. ["pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables".](https://arxiv.org/abs/2104.07699) In Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), 2022. https://doi.org/10.1109/MICRO56248.2022.00067.*
+_João Dinis Ferreira, Gabriel Falcao, Juan Gómez-Luna, Mohammed Alser, Lois Orosa, Mohammad Sadrosadati, Jeremie S. Kim, Geraldo F. Oliveira, Taha Shahroodi, Anant Nori, and Onur Mutlu. ["pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables".](https://arxiv.org/abs/2104.07699) In Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), 2022. https://doi.org/10.1109/MICRO56248.2022.00067._
 
 You can also use the following BibTeX entry for this purpose:
 

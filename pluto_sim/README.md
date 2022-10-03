@@ -8,7 +8,7 @@ You may reproduce our results in one of two ways:
 
 1. Ensure that Python 3.x is available on your system
 2. Install the required dependencies (NumPy and pandas) using `pip install -r requirements.txt`
-3. Launch the simulation walkthrough file by opening `sim_walkthrough.ipynb` as a Jupyter notebook and execute all the cells in sequence
+3. Launch the simulation walkthrough file by opening `sim_walkthrough.ipynb` as a Jupyter notebook and execute all cells
 
 ### Option #2: Manually Execute the In-House Simulator
 

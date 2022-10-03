@@ -111,8 +111,12 @@ You can also use the following BibTeX entry for this purpose:
 
 ## License
 
+Distributed under the MIT License. See LICENSE for more information.
+
 ## Contact
+
+João Dinis Ferreira - [hello@joaof.eu]
 
 ## Acknowledgements
 
-## What is pLUTo?
+We acknowledge support from SAFARI Research Group's industrial partners.

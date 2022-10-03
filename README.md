@@ -82,7 +82,7 @@ The following is a high-level overview of the structure of this repository, wher
 
 Please cite pLUTo as follows:
 
-_João Dinis Ferreira, Gabriel Falcao, Juan Gómez-Luna, Mohammed Alser, Lois Orosa, Mohammad Sadrosadati, Jeremie S. Kim, Geraldo F. Oliveira, Taha Shahroodi, Anant Nori, and Onur Mutlu. ["pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables".](https://arxiv.org/abs/2104.07699) In Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), 2022. https://doi.org/10.1109/MICRO56248.2022.00067._
+> _João Dinis Ferreira, Gabriel Falcao, Juan Gómez-Luna, Mohammed Alser, Lois Orosa, Mohammad Sadrosadati, Jeremie S. Kim, Geraldo F. Oliveira, Taha Shahroodi, Anant Nori, and Onur Mutlu. ["pLUTo: Enabling Massively Parallel Computation in DRAM via Lookup Tables".](https://arxiv.org/abs/2104.07699) In Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), 2022. https://doi.org/10.1109/MICRO56248.2022.00067._
 
 You can also use the following BibTeX entry for this purpose:
 

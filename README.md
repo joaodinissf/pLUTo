@@ -1,6 +1,6 @@
 <p align="center">
-  <img alt="pluto-logo" src="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg" width="400">
-  <img alt="pluto-name" src="resources/pluto.svg" width="400">
+  <img alt="pluto-name" src="resources/pluto.svg" width="200" style="display:block"> 
+  <img alt="pluto-logo" src="resources/angelo-abear-m2pGYEHs0AM-unsplash.jpg" width="300" style="display:block">
   <h3 align="center">Enabling Massively Parallel Computation in DRAM via Lookup Tables</h3>
 </p>
 
@@ -11,7 +11,12 @@
     <a href="https://github.com/CMU-SAFARI/Hermes/releases">
         <img alt="GitHub release" src="https://img.shields.io/github/release/CMU-SAFARI/Hermes">
     </a>
-    <a href="https://doi.org/10.5281/zenodo.6909799"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6909799.svg" alt="DOI"></a>
+    <a href="https://doi.org/10.5281/zenodo.6942058"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6942058.svg" alt="MICRO DOI"></a>
+    <a href="https://doi.org/10.48550/arXiv.2104.07699"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6942058.svg" alt="arXiv DOI"></a>
+    </p>
+    [![arXiv](https://img.shields.io/badge/arXiv-10.48550/arXiv.2104.07699-red.svg)](https://arxiv.org/abs/2104.07699)
+    <p align="center">
+    <a href="https://doi.org/10.5281/zenodo.6942058"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6942058.svg" alt="Zenodo DOI"></a>
 </p>
 
 This repository contains the artifact evaluation materials associated with the MICRO 2022 submission of [pLUTo: Enabling Massively Parallel Computation

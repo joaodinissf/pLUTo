@@ -38,28 +38,50 @@ The _pLUTo LUT Query_ is at the core of pLUTo's functionality: this operation en
 
 ## Repository Structure
 
-This repository contains the artifact evaluation materials associated with the MICRO 2022 submission of [pLUTo: Enabling Massively Parallel Computation
-In DRAM via Lookup Tables](pLUTo.pdf).
+This repository contains the artifact evaluation materials associated with [pLUTo: Enabling Massively Parallel Computation In DRAM via Lookup Tables](pLUTo.pdf), published at MICRO 2022.
 
-Two artifacts are provided:
+We provide sources to reproduce:
 
-1. The SPICE simulations (used to produce Figure 6 in the paper).
-2. The pLUTo simulation model (used to produce Figures 7-13 in the paper).
+1. SPICE simulations (these results are shown in Figure 6 in the paper).
+2. The simulation of pLUTo's operation (these results are shown in Figures 7-13 in the paper).
 
-The instructions to reproduce each of the artifacts are provided in `README.md` files in their respective directories.
+The instructions to reproduce each of the artifacts are provided in dedicated `README.md` files in their respective directories.
 
-We point out next the repository structure and some important folders and files.
-All benchmark folders have similar structure to the one shown for BFS.
-The microbenchmark folder contains eight different microbenchmarks, each with similar folder structure.
-The repository also includes `run_*.py` scripts to run strong and weak scaling experiments for PrIM benchmarks.
+The following is a high-level overview of the structure of this repository, where select folders and files have been highlighted.
 
 ```
 .
 +-- LICENSE
 +-- README.md
-+-- run_strong_full.py
-+-- run_strong_rank.py
-+-- run_weak.py
++-- pluto_sim/
+|   +-- baselines/
+|	|	+-- cpu/
+|	|	+-- gpu/
+|   +-- data/
+|   +-- dpu/
+|   +-- host/
+|   +-- support/
+|   +-- Makefile
++-- resources/
+|   +-- ...                         --> media rendered in this README
++-- spice/
+|   +-- media/
+|   +-- out/                        --> media rendered in this README
+|   +-- runs/
+|   +-- README.md
+|   +-- pluto-a.asc
+|   +-- pluto-b.asc
+|   +-- pluto-c.asc
+|   +-- reference.asc
+|   +-- transistor_model.pm
+|   +-- baselines/
+|	|	+-- cpu/
+|	|	+-- gpu/
+|   +-- data/
+|   +-- dpu/
+|   +-- host/
+|   +-- support/
+|   +-- Makefile
 +-- BFS/
 |   +-- baselines/
 |	|	+-- cpu/
@@ -69,39 +91,6 @@ The repository also includes `run_*.py` scripts to run strong and weak scaling e
 |   +-- host/
 |   +-- support/
 |   +-- Makefile
-+-- BS/
-|   +-- ...
-+-- GEMV/
-|   +-- ...
-+-- HST-L/
-|   +-- ...
-+-- HST-S/
-|   +-- ...
-+-- MLP/
-|   +-- ...
-+-- Microbenchmarks/
-|   +-- Arithmetic-Throughput/
-|   +-- CPU-DPU/
-|   +-- MRAM-Latency/
-|   +-- Operational-Intensity/
-|   +-- Random-GUPS/
-|   +-- STREAM/
-|   +-- STRIDED/
-|   +-- WRAM/
-+-- NW/
-|   +-- ...
-+-- RED/
-|   +-- ...
-+-- SCAN-SSA/
-|   +-- ...
-+-- SCAN-RSS/
-|   +-- ...
-+-- SEL/
-|   +-- ...
-+-- SpMV/
-|   +-- ...
-+-- TRNS/
-|   +-- ...
 +-- TS/
 |   +-- ...
 +-- UNI/

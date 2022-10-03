@@ -10,7 +10,7 @@
     <a href="https://github.com/CMU-SAFARI/pLUTo/releases">
         <img alt="GitHub Release" src="https://img.shields.io/github/release/CMU-SAFARI/pLUTo">
     </a>
-    <a href="https://doi.org/10.1109/MICRO56248.2022.00067"><img src="https://zenodo.org/badge/DOI/10.1109/MICRO56248.2022.00067.svg" alt="MICRO DOI"></a>
+    <a href="https://doi.org/10.1109/MICRO56248.2022.00067"><img src="https://img.shields.io/badge/DOI-10.1109/MICRO56248.2022.00067-blue" alt="MICRO DOI"></a>
     <a href="https://doi.org/10.48550/arXiv.2104.07699"><img src="https://zenodo.org/badge/DOI/10.48550/arXiv.2104.07699" alt="arXiv DOI"></a>
     <a href="https://doi.org/10.5281/zenodo.6942058"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6942058.svg" alt="Zenodo DOI"></a>
 </p>

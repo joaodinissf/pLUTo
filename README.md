@@ -54,49 +54,26 @@ The following is a high-level overview of the structure of this repository, wher
 +-- LICENSE
 +-- README.md
 +-- pluto_sim/
-|   +-- baselines/
-|	|	+-- cpu/
-|	|	+-- gpu/
-|   +-- data/
-|   +-- dpu/
-|   +-- host/
-|   +-- support/
-|   +-- Makefile
+|   +-- baselines                   --> results from execution of baselines
+|   +-- pysim                       --> output folder
+|   +-- pysim_reference             --> reference results from pLUTo's execution
+|   +-- LUT_Loading_Times.xlsx      --> used to produce the results shown in Figure 11 in the paper
+|   +-- README.md                   --> EXECUTION INSTRUCTIONS
+|   +-- requirements.txt            --> Python requirements to be installed
+|   +-- sim_walkthrough.ipynb       --> interactive Python Jupyter Notebook with step-by-step instructions on how to reproduce our results
+|   +-- ...
 +-- resources/
 |   +-- ...                         --> media rendered in this README
 +-- spice/
 |   +-- media/
-|   +-- out/                        --> media rendered in this README
+|   +-- out/                        --> output folder
 |   +-- runs/
-|   +-- README.md
+|   +-- README.md                   --> EXECUTION INSTRUCTIONS
 |   +-- pluto-a.asc
 |   +-- pluto-b.asc
 |   +-- pluto-c.asc
 |   +-- reference.asc
 |   +-- transistor_model.pm
-|   +-- baselines/
-|	|	+-- cpu/
-|	|	+-- gpu/
-|   +-- data/
-|   +-- dpu/
-|   +-- host/
-|   +-- support/
-|   +-- Makefile
-+-- BFS/
-|   +-- baselines/
-|	|	+-- cpu/
-|	|	+-- gpu/
-|   +-- data/
-|   +-- dpu/
-|   +-- host/
-|   +-- support/
-|   +-- Makefile
-+-- TS/
-|   +-- ...
-+-- UNI/
-|   +-- ...
-+-- VA/
-|   +-- ...
 ```
 
 ## Execution Instructions

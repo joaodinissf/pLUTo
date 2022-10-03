@@ -54,26 +54,26 @@ The following is a high-level overview of the structure of this repository. We h
 +-- LICENSE
 +-- README.md
 +-- pluto_sim/
-|   +-- baselines                   --> baseline results for the evaluated workloads
-|   +-- pysim                       --> output folder (empty when the repository is first cloned)
-|   +-- pysim_reference             --> reference results for the pLUTo-based execution of the evaluated workloads
-|   +-- LUT_Loading_Times.xlsx      --> used to produce the results shown in Figure 11 in the paper
+|   +-- baselines                   -->             baseline results for the evaluated workloads
+|   +-- pysim                       -->             output folder (empty when the repository is first cloned)
+|   +-- pysim_reference             -->             reference results for the pLUTo-based execution of the evaluated workloads
+|   +-- LUT_Loading_Times.xlsx      -->             used to produce the results shown in Figure 11 in the paper
 |   +-- README.md                   --> START HERE: step-by-step instructions on how to reproduce our results
-|   +-- requirements.txt            --> Python requirements to be installed prior to execution
-|   +-- sim_walkthrough.ipynb       --> interactive Python Jupyter Notebook with step-by-step instructions on how to reproduce our results
+|   +-- requirements.txt            -->             Python requirements to be installed prior to execution
+|   +-- sim_walkthrough.ipynb       -->             interactive Python Jupyter Notebook with step-by-step instructions on how to reproduce our results
 |   +-- ...
 +-- resources/
-|   +-- ...                         --> media rendered in this README
+|   +-- ...                         -->             media rendered in this README
 +-- spice/
-|   +-- media/                      --> media rendered in the README
-|   +-- out/                        --> output folder
-|   +-- runs/                       --> output folder
+|   +-- media/                      -->             media rendered in the README
+|   +-- out/                        -->             output folder
+|   +-- runs/                       -->             output folder
 |   +-- README.md                   --> START HERE: step-by-step instructions on how to reproduce our results
-|   +-- pluto-a.asc                 --> cell design file
-|   +-- pluto-b.asc                 --> cell design file
-|   +-- pluto-c.asc                 --> cell design file
-|   +-- reference.asc               --> cell design file
-|   +-- transistor_model.pm         --> transistor model
+|   +-- pluto-a.asc                 -->             cell design file
+|   +-- pluto-b.asc                 -->             cell design file
+|   +-- pluto-c.asc                 -->             cell design file
+|   +-- reference.asc               -->             cell design file
+|   +-- transistor_model.pm         -->             transistor model
 ```
 
 ## Execution Instructions

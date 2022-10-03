@@ -102,7 +102,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-[João Dinis Ferreira - hello@joaof.eu](mailto:hello@joaof.eu?subject=A Question About pLUTo)
+<a href="mailto:hello@joaof.eu?subject=A Question About pLUTo">João Dinis Ferreira - hello@joaof.eu</a>
 
 ## Acknowledgements
 
